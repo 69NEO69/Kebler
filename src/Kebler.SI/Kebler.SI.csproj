@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Configurations>Debug;Release;Portable</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TinyIpc" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
